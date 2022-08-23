@@ -1,20 +1,16 @@
 body {
     font-family: "Poppins", sans-serif;
     margin: 0;
-    /* background-color: #1212138b; */
-
 }
 
 section {
     text-align: center;
-
 }
 
 h1 {
     color: rgb(255, 255, 255);
     font-size: 50px;
     font-weight: 800;
-    padding: 0;
 }
 
 h2 {
@@ -27,13 +23,10 @@ h2 {
     width: 45%;
     font-size: 18px;
     padding: 20px;
-
-
 }
 
 .top-banner {
     background-image: url(images/poor2.jpg);
-
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5%;
@@ -50,28 +43,10 @@ h2 {
     padding: 12px 25px;
     border-radius: 10PX;
     font-weight: 500;
-
 }
 
 .button:hover {
     background-color: rgb(23, 154, 241);
-}
-
-.money {
-    display: flex;
-    margin: auto;
-    width: 500px;
-    text-align: center;
-    padding-bottom: 20px;
-    /* background-color: blue; */
-
-}
-
-.money p {
-    padding: 20px;
-    background-color: rgba(242, 235, 229, 0.929);
-    border-radius: 5px;
-    margin: 20px 10px 10px 10px;
 }
 
 .secend-title {
@@ -85,18 +60,30 @@ h2 {
     margin: auto;
 }
 
+.money-donation {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.money-donation p {
+    padding: 20px;
+    background-color: rgba(242, 235, 229, 0.929);
+    border-radius: 5px;
+    margin: 20px 10px 10px 10px;
+}
+
+.money-donation p:hover {
+    background-color: #f47f7f;
+}
+
 .secend-money {
     color: red;
     border: 2px solid red;
     background-color: aqua;
 }
-
-.money p:hover {
-    background-color: #f47f7f;
-    /* background-color: rgb(23, 154, 241); */
-
-}
-
 
 input {
     border: none;
@@ -138,27 +125,27 @@ input {
     border-radius: 20px;
 }
 
-.one {
+.first-card {
     background-color: #d7eaec;
 }
 
-.one:hover {
+.first-card:hover {
     background-color: #4F9DA6;
 }
 
-.two {
+.second-card {
     background-color: rgb(235, 180, 233);
 }
 
-.two:hover {
+.second-card:hover {
     background-color: rgb(233, 70, 227);
 }
 
-.three {
+.third-card {
     background-color: #e47f7f;
 }
 
-.three:hover {
+.third-card:hover {
     background-color: #FF5959;
 }
 
@@ -168,7 +155,7 @@ input {
 
 .card-section p {
     width: 100%;
-    font-size: 16px;
+    font-size: 15px;
     color: #424242;
 }
 
@@ -181,7 +168,6 @@ input {
     width: 80%;
     padding: 20px;
     margin: auto;
-
 }
 
 .graph-title {
@@ -199,7 +185,6 @@ input {
     padding: 20px;
     margin-left: 90px;
     border-radius: 20px;
-
 }
 
 .update p {
@@ -220,7 +205,6 @@ input {
     background-color: wheat;
     margin-top: 30px;
     height: 200px;
-
 }
 
 .form-email {
@@ -245,9 +229,9 @@ input {
 footer {
     margin-top: 50px;
     text-align: center;
-    color: whitesmoke;
+    color: rgb(255, 250, 250);
     background-color: black;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 30px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
