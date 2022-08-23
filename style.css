@@ -1,38 +1,41 @@
 body {
     font-family: "Poppins", sans-serif;
     margin: 0;
+    /* background-color: #1212138b; */
 
 }
 
 section {
     text-align: center;
-    padding: 5%;
-    padding-top: 20px;
-    padding-bottom: 30px;
+
 }
 
 h1 {
-    color: rgb(17, 252, 9);
-    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 800;
     padding: 0;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 .first-section {
     margin: auto;
-    border-radius: 20px;
-    color: rgb(251, 249, 247);
-    width: 50%;
-    font-size: 20px;
-    padding: 20px 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    color: rgb(255, 255, 253);
+    width: 45%;
+    font-size: 18px;
+    padding: 20px;
+
+
 }
 
 .top-banner {
-    /* background-image: url(images/pic3\ \(1\).png); */
-    background-image: url(images/flood.jpg);
+    background-image: url(images/poor2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    padding: 5%;
 }
 
 .title {
@@ -41,14 +44,16 @@ h1 {
 
 .button {
     text-decoration: none;
-    background-color: rgb(230, 226, 236);
-    padding: 7px 20px;
+    background-color: #FF5959;
+    color: aliceblue;
+    padding: 12px 25px;
     border-radius: 10PX;
-    /* margin-top: 10px; */
+    font-weight: 500;
+
 }
 
 .button:hover {
-    background-color: rgb(81, 230, 238);
+    background-color: rgb(23, 154, 241);
 }
 
 .money {
@@ -68,8 +73,13 @@ h1 {
     margin: 20px 10px 10px 10px;
 }
 
+.secend-title {
+    margin-top: 30px;
+    padding: 30px;
+}
+
 .secend-title p {
-    width: 50%;
+    width: 40%;
     padding: 10px;
     margin: auto;
 }
@@ -82,6 +92,8 @@ h1 {
 
 .money p:hover {
     background-color: #f47f7f;
+    /* background-color: rgb(23, 154, 241); */
+
 }
 
 
@@ -105,6 +117,10 @@ input {
 .donate-plan p {
     width: 40%;
     margin: auto;
+}
+
+.donate-plan {
+    margin-top: 70px;
 }
 
 .plan-section {
