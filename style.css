@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .first-section {
@@ -33,6 +33,7 @@ h2 {
 
 .top-banner {
     background-image: url(images/poor2.jpg);
+
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5%;
@@ -169,6 +170,36 @@ input {
     width: 100%;
     font-size: 16px;
     color: #424242;
+}
+
+.donation-graph {
+    text-align: center;
+}
+
+.graph {
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.graph-title {
+    width: 90%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.graph-title p {
+    margin-bottom: 30px;
+}
+
+.graph-img img {
+    width: 70%;
+    padding: 20px;
+    margin-left: 90px;
+    border-radius: 20px;
+
 }
 
 .update p {
