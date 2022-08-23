@@ -6,7 +6,9 @@ body {
 
 section {
     text-align: center;
-    padding: 5%;
+    /* padding: 5%; */
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -16,7 +18,6 @@ h1 {
 }
 
 .first-section {
-    /* background-color: rgba(0, 0, 0, 0.27); */
     margin: auto;
     border-radius: 20px;
     color: rgb(251, 249, 247);
@@ -87,15 +88,69 @@ h1 {
 input {
     border: none;
     text-align: center;
-    background-color: rgb(237, 233, 229);
+    background-color: rgb(251, 249, 247);
     padding: 10px;
     resize: none;
     outline: none;
     border-radius: 10px;
+    font-size: 16px;
 }
 
 .horizontalrow {
     width: 40%;
     margin: auto;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.donate-plan p {
+    width: 40%;
+    margin: auto;
+}
+
+.plan-section {
+    width: 90%;
+    margin-left: 4%;
+    display: flex;
+}
+
+.card-section {
+    width: 80%;
+    margin-left: 20px;
+    margin: 50px 20px;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.one {
+    background-color: #d7eaec;
+}
+
+.one:hover {
+    background-color: #4F9DA6;
+}
+
+.two {
+    background-color: rgb(235, 180, 233);
+}
+
+.two:hover {
+    background-color: rgb(233, 70, 227);
+}
+
+.three {
+    background-color: #e47f7f;
+}
+
+.three:hover {
+    background-color: #FF5959;
+}
+
+.card-section img {
+    width: 50%;
+}
+
+.card-section p {
+    width: 100%;
+    font-size: 16px;
+    color: #424242;
 }
